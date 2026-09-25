@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: poppins;
+    
+    
+}
+.container{
+    display: block;
+    width: 450px;
+    height: 350px;
+    background-color: #1F2937;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.highlight{
+    display: block;
+    color: #10B981;
+}
+
+h1{
+    margin: 0px;
+}
+
+#para{
+    margin-top: 0px;
+}
+
+button{
+    background-color:#10B981;
+    border-radius: 6px;;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+button:hover{
+    background-color: #30cc98;
+}
+
+hr{
+    border-bottom: solid 1px grey;
+    width: 100%;
+}
+.list-pass{
+    display: flex;
+    gap: 20px;
+}
+#pass-1{
+    padding: 10px;
+    width: 210px;
+    text-align: center;
+    height: 20px;
+    background-color: #273549;
+    border-radius: 2px;
+    color: #10B981;
+    font-weight: bold;
+}
+#pass-2{
+    padding: 10px;
+    width: 210px;
+    text-align: center;
+    height: 20px;
+    background-color: #273549;
+    border-radius: 2px;
+    color: #10B981;
+    font-weight: bold;
+}
